@@ -111,7 +111,4 @@ To run PF with 500 particles and visualization:
 ```
 docker run --rm -it robot-localization python localization.py pf --num-particles 500 --plot
 ```
-
-> **Note:** If visualization does not appear, make sure Docker is properly configured to support GUI applications on your OS (e.g., using `xhost` on Linux, or an X server on Windows/Mac).
-
 ---
